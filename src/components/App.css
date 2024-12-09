@@ -1,0 +1,27 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 1280px;
+  min-width: 320px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 38px 0 20px;
+}
+
+.app__main {
+  margin: 48px 0 80px;
+}
+
+.hover__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

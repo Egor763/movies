@@ -1,0 +1,131 @@
+.main {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.main__search {
+  width: 100%;
+}
+
+.main__form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e8e8e8;
+  margin-bottom: 32px;
+}
+
+.main__search-input {
+  all: unset;
+  width: 94px;
+  height: 47px;
+  border: none;
+  line-height: 34px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.form__button {
+  width: 80px;
+  height: 34px;
+  background: #3456f3;
+  color: white;
+  border: none;
+  border-radius: 48px;
+  line-height: 18px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.smalltumb__container {
+  width: 167px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 137px;
+}
+
+.main__smalltumb {
+  width: 36px;
+  height: 20px;
+  background: transparent;
+  border: none;
+}
+
+.main__smalltumb-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.main__smalltumb-text {
+  width: 117px;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.main__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(130px, 300px));
+  grid-template-rows: repeat(4, minmax(130px, 230px));
+  gap: 38px 20px;
+}
+
+.movie {
+  width: 270px;
+}
+
+.movie__image {
+  width: 270px;
+  height: 151px;
+}
+
+.movie__container {
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 29px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+
+.movie__title {
+  width: 226px;
+  margin-top: 14px;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.movie__like {
+  background: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+
+.movie__like-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.movie__duration {
+  width: 37px;
+  line-height: 13px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.main__button {
+  width: 320px;
+  height: 36px;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 50px;
+  background: transparent;
+  border: 1px solid #f9f9f9;
+  margin-left: 400px;
+}
