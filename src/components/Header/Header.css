@@ -22,7 +22,7 @@
 
 .header__link {
   width: 142px;
-  color: black;
+  color: white;
   line-height: 18px;
   font-size: 13px;
   font-weight: 500;
@@ -35,24 +35,26 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 11px;
-  border: 1px solid #f9f9f9;
 }
 
-.header__account {
-  width: 53px;
-  line-height: 12px;
-  font-size: 13px;
+.header__register {
+  width: 64px;
+  height: 16px;
+  margin-right: 5px;
+  line-height: 16px;
+  font-size: 10px;
   font-weight: 500;
-}
-
-.header__account-button {
-  width: 10px;
-  height: 11px;
   background: transparent;
   border: none;
+  color: white;
 }
 
-.header__account-icon {
-  width: 10px;
-  height: 11px;
+.header__login {
+  width: 54px;
+  height: 26px;
+  line-height: 16px;
+  font-size: 10px;
+  font-weight: 500;
+  background: #3ddc84;
+  border: none;
 }

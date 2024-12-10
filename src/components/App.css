@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.root {
+  background: #000;
+  color: white;
+}
+
 .app {
   max-width: 1280px;
   min-width: 320px;
@@ -18,7 +23,7 @@
 }
 
 .app__main {
-  margin: 48px 0 80px;
+  margin: 48px 0 139px;
 }
 
 .hover__link:hover {

@@ -1,6 +1,5 @@
 import './Header.css';
 import logo from '../../images/logo.svg';
-import account from '../../images/account.svg';
 
 export function Header() {
   return (
@@ -19,10 +18,8 @@ export function Header() {
         </li>
       </ul>
       <div className='header__container'>
-        <p className='header__account'>Аккаунт</p>
-        <button className='header__account-button' type='button'>
-          <img className='header__account-icon' src={account} alt='Аккаунт' />
-        </button>
+        <button className='header__register hover__link'>Регистрация</button>
+        <button className='header__login hover__link'>Войти</button>
       </div>
     </header>
   );
